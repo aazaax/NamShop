@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+	<meta charset="utf-8">
+	<title>asm2</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'css/HoaiNam.css' %}" />
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row header-row" style="background-color:#E76264">
+			<div class="container mx-auto">
+			</div>
+		</div>
+		<div class="row header-row1" style="background-color: #E76264">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<img class="logo" src="image/image2.jpeg" width="250px" style="margin-left: 100px; margin-top: 10px;">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<h2 style="margin-left: 30px;">Shop Giày Hoài Nam</h2>
+			</div>
+		</div>
+		<div class="row header-row2" style="background-color: #E76264">
+			<div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+				<ul>
+					<li><a style="text-decoration-line: underline; color: burlywood; cursor: pointer;">Trang chủ</a>
+					</li>
+					<li><a style="cursor: pointer;" href="../sanpham">Sản phẩm</a></li>
+					<li><a style="cursor: pointer;" href="../listproducts">Giỏ Hàng</a></li>
+					<li><a style="cursor: pointer;" href="../login">login</a></li>
+					<li><a style="cursor: pointer;" href="../signup">signup</a></li>
+					<li><a style="cursor: pointer;" href="../aboutus">aboutus</a></li>
+					<li><a style="cursor: pointer;" href="../contact">contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slide1">
+			<div class="row slider1 ">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+					<div class="slide1-content slide1-content-slide">
+						<h3 style="color: black; font-weight: bold">Giày Hoài Nam</h3>
+						<h1
+							style="color: black; font-weight: bold; font-size: 50px; font-family: allerta;padding-bottom: 15px;">
+							Chuyên bán giày chính hãng</h1>
+						<p style="color: black; font-size: 17px; padding-bottom: 17px;">Phát triển đi cùng với sự uy tín
+						</p>
+						<button
+							style="background-color: #1C1B1B; color: white; width: 200px; height: 50px; border: 1px solid white; border-radius: 8px; font-size: 18px;"><a
+								href="{% url 'sanpham'%}">Xem sản phẩm</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+</body>
+
+</html>

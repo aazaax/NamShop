@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>asm2</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/sanpham.css' %}"/>
+</head>
+
+<body>
+	<div class = "container-fluid">
+	  <div class = "row header-row" style="background-color:#E76264">
+		  <div class = "container mx-auto">
+		</div>
+		</div>
+	    <div class = "row header-row1" style="background-color: #E76264">
+			<div class = "col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<img class = "logo" src="image/image2.jpeg" width = "250px" style = "margin-left: 100px; margin-top: 10px;">
+			</div>
+			<div class= "col-xs-12 col-sm-12 col-md-12 col-lg-3">
+				<h2 style = "margin-left: 30px;">Shop Giày Hoài Nam</h2>
+			</div>
+		</div>
+		<div class = "row header-row2" style="background-color: #E76264">
+			<div class = "col-xs-12 col-lg-12 col-md-12 col-sm-12">
+			<ul>
+				<li><a style = "text-decoration-line: underline; color: burlywood; cursor: pointer;">Trang chủ</a></li>
+				<li><a style="cursor: pointer;" href="../sanpham">Sản phẩm</a></li>
+				<li><a style="cursor: pointer;" href="../products">Giỏ Hàng</a></li>
+				<li><a style="cursor: pointer;" href="../login">login</a></li>
+				<li><a style="cursor: pointer;" href="../signup">signup</a></li>
+				<li><a style="cursor: pointer;" href="../aboutus">aboutus</a></li>
+				<li><a style="cursor: pointer;" href="../contact">contact</a></li>
+				
+			</ul>
+			</div>
+		</div>
+		<h2 style = "text-align: center">Sản phẩm<h2>		
+			<li><a href = "" style="color: black"></a></li>
+				
+		
+				<div class = "col-lg-3 col-md-12 col-sm-12 col-xs-12">
+					<div class = "img-center">
+						<img style="margin-left: 30px;" src=""/>
+						<div class = "caption">
+							<h3>Tên sản phẩm: </h3>
+							<h4>Giá: VNĐ</h4>
+							<button class = "snip1547" style = "width: 110px; font-size: 20px;"><a style="color: black" href="{% url 'detail'%}">Chi Tiết</a></button>
+							<button style = "width: 120px; font-size: 20px;" class = "snip1547"><a style="color: black" href="{% url 'order'%}">Mua Ngay</a></button>
+						</div>
+					</div>
+				</div>
+    </div>
+
+		
+		
+</body>
+</html>
